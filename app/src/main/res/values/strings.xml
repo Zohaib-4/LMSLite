@@ -2,4 +2,31 @@
     <string name="app_name">LMSLite</string>
     <string name="app_logo">app_logo</string>
     <string name="welcome_back">Welcome Back</string>
+    <string name="welcome_to_lmslite">Welcome to LMSLite</string>
+    <string name="note1">Learn with Excellence</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="virtual_doctor">LMSLite</string>
+    <string name="lms_lite">LMSLite</string>
+    <string name="dashboard_subtitle">Continue your learning journey</string>
+    <string name="search_courses">Search for courses</string>
+    <string name="my_learning_progress">My Learning Progress</string>
+    <string name="continue_learning">Continue</string>
+    <string name="my_courses">My Courses</string>
+    <string name="view_all">View All</string>
+    <string name="android_app_development">Android App Development</string>
+    <string name="web_development">Web Development</string>
+    <string name="python_programming">Python Programming</string>
+    <string name="recommended_courses">Recommended For You</string>
+    <string name="flutter_development">Flutter Development</string>
+    <string name="machine_learning">Machine Learning</string>
+
+    <!-- Bottom Navigation -->
+    <string name="home">Home</string>
+    <string name="courses">Courses</string>
+    <string name="forum">Forum</string>
+    <string name="profile">Profile</string>
 </resources>
