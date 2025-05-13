@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EEF4FF"
-    tools:context=".DashboardActivity">
+    tools:context=".HomeActivity">
 
     <!-- App Bar with Toolbar -->
     <com.google.android.material.appbar.AppBarLayout

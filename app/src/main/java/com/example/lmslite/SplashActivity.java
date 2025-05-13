@@ -6,11 +6,9 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-import android.widget.RadioButton;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
-import androidx.activity.result.ActivityResultLauncher;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -39,13 +37,10 @@ public class SplashActivity extends AppCompatActivity {
         ivLogo.startAnimation(animation);
         tvTitle.startAnimation(animation);
 
-        new Handler()
-                .postDelayed(()->{
-                    startActivity(new Intent(SplashActivity.this, LoginActivity.class));
-                    finish();
-                }, 4000);
-
-
-
+        // Show splash screen for 4 seconds before navigating to login
+        new Handler().postDelayed(() -> {
+            startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+            finish();
+        }, 4000);
     }
 }
