@@ -35,6 +35,30 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CourseDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddModuleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddQuizActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

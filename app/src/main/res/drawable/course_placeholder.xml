@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M0,0h120v120h-120z" />
+
+    <!-- Book Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,20h60c5.52,0 10,4.48 10,10v60c0,5.52 -4.48,10 -10,10h-60c-5.52,0 -10,-4.48 -10,-10v-60c0,-5.52 4.48,-10 10,-10zM40,30v60h40v-60h-40z" />
+
+    <!-- Book Pages -->
+    <path
+        android:fillColor="#EEF4FF"
+        android:pathData="M45,35h30v50h-30z" />
+
+    <!-- Book Lines -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M50,45h20v2h-20z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M50,50h20v2h-20z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M50,55h20v2h-20z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M50,60h20v2h-20z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M50,65h20v2h-20z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M50,70h20v2h-20z" />
+
+</vector> 
